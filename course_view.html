@@ -3,9 +3,9 @@
     <head>
         <title>LMS Course View</title>
     </head>
-    <body style="font-size: 20px">
+    <body>
         <header>
-            <img width=130px height=130px src="logo.jpg">
+            <img width=100px height=100px src="logo.jpg">
             <h1>LMS - Learning Management System</h1>
         </header>
         <h2>LMS - Course View</h2>
@@ -17,74 +17,55 @@
         <main>
             <p>
                 <br><label for="term">Select Term:</label>
-                <select id="term" name="term" style="font-size:16px;">
+                <select id="term" name="term">
                     <option>Winter 2025</option>
                     <option>Fall 2024</option>
                     <option>Summer 2024</option>
                     <option>Spring 2024</option>
                 </select>
             </p>
+            
             <h2>Enrolled Courses</h2><hr>
-            <table style="table-layout:fixed; width:fit-content;">
+            <table style="width:100%;">
                 <tr>
-                    <td style="padding:2px"><img src="course1.jpg" width="100%"></td>
-                    <td style="padding:2px"><img src="course1.jpg" width="100%"></td>
-                    <td style="padding:2px"><img src="course1.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course1.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course1.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course1.jpg" width="100%"></td>
                 </tr>
                 <tr>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: Web Development
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: Data Structures
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: DBMS
-                    </td>
+                    <td><br>Course Name: Web Development</td>
+                    <td><br>Course Name: Data Structures</td>
+                    <td><br>Course Name: DBMS</td>
                 </tr>
                 <tr>
-                    <td style="vertical-align:top;">
-                        <br>Course Code: WD381
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Code: DS371
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Code: DB346
-                    </td>
+                    <td><br>Course Code: WD381</td>
+                    <td><br>Course Code: DS371</td>
+                    <td><br>Course Code: DB346</td>
                 </tr>
                 <tr>
-                    <td ><br>
-                        <a href="attempt_quiz.html">Attempt Quiz</a>
+                    <td >
+                        <br><a href="attempt_quiz.html">Attempt Quiz</a>
                     </td>
-                    <td><br>
-                        <a href="attempt_quiz.html">Attempt Quiz</a>
+                    <td>
+                        <br><a href="attempt_quiz.html">Attempt Quiz</a>
                     </td>
-                    <td><br>
-                        <a href="attempt_quiz.html">Attempt Quiz</a>
+                    <td>
+                        <br><a href="attempt_quiz.html">Attempt Quiz</a>
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding:2px"><img src="course1.jpg" width="100%"></td>
-                    <td style="padding:2px"><img src="course1.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course1.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course1.jpg" width="100%"></td>
+                    <td style="width:33.33%"></td>
+                </tr>
+                <tr>
+                    <td><br>Course Name: Software Testing</td>
+                    <td><br>Course Name: Software Architechtures</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: Software Testing
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: Software Architechtures
-                    </td>
-                    <td></td>
-                </tr>
-                <tr style="height:35px">
-                    <td style="vertical-align:top;">
-                        <br>Course Code: ST484
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Code: SA396
-                    </td>
+                    <td><br>Course Code: ST484</td>
+                    <td><br>Course Code: SA396</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -97,47 +78,35 @@
                     <td></td>
                 </tr>
             </table>
+
             <br><h2>Pending Invitations</h2><hr>
-            <table style="table-layout:fixed; width:fit-content;">
+            <table style="width:100%;">
                 <tr>
-                    <td style="padding:2px"><img src="course2.jpg" width="100%"></td>
-                    <td style="padding:2px"><img src="course2.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course2.jpg" width="100%"></td>
+                    <td style="width:33.33%"><img src="course2.jpg" width="100%"></td>
+                    <td style="width:33.33%"></td>
+                </tr>
+                <tr>
+                    <td><br>Course Name: Data Science</td>
+                    <td><br>Course Name: Machine Learning</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: Data Science
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Name: Machine Learning
-                    </td>
-                    <td style="vertical-align:top;"></td>
-                </tr>
-                <tr>
-                    <td style="vertical-align:top;">
-                        <br>Course Code: DS102
-                    </td>
-                    <td style="vertical-align:top;">
-                        <br>Course Code: ML105
-                    </td>
-                    <td style="vertical-align:top;">
-                    </td>
+                    <td><br>Course Code: DS102</td>
+                    <td><br>Course Code: ML105</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td ><br>
                         <form>
-                            <button type="button" style="text-align:centre; font-size:16px; 
-                                background-color:lightgreen; width:70px;">Accept</button>
-                            <button type="button" style="text-align:centre; font-size:16px; 
-                                background-color:lightcoral; width:70px;">Decline</button>
+                            <button type="button" style="background-color:lightgreen;">Accept</button>
+                            <button type="button" style="background-color:lightcoral;">Decline</button>
                         </form>
                     </td>
                     <td><br>
                         <form>
-                            <button type="button" style="text-align:centre; font-size:16px; 
-                                background-color:lightgreen; width:70px;">Accept</button>
-                            <button type="button" style="text-align:centre; font-size:16px; 
-                                background-color:lightcoral; width:70px;">Decline</button>
+                            <button type="button" style="background-color:lightgreen;">Accept</button>
+                            <button type="button" style="background-color:lightcoral;">Decline</button>
                         </form>
                     </td>
                     <td></td>
