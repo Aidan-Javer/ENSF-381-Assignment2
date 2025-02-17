@@ -1,1 +1,39 @@
+header {
+    display: flex;
+    background-color: #004080;
+    padding: 20px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
 
+div{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #003366;
+    padding: 10px;
+}
+
+div a{
+    color: white;
+    text-decoration: none;
+}
+
+div a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer{
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
