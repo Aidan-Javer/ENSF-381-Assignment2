@@ -8,30 +8,37 @@ header {
     color: white;
 }
 
-div{
-    display: flex;
-    justify-content: space-evenly;
+div {
     background-color: #003366;
     padding: 10px;
 }
 
-div a{
+div p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div a {
     color: white;
     text-decoration: none;
 }
 
-div a:hover{
+div a:hover {
     text-decoration: underline;
 }
 
-main{
+#about {
     background-color: #d4d4d4;
     text-align: center;
     padding: 20px;
     margin: 20px;
 }
+#about p ol {
+    text-align: center;
+    list-style-type: none;
+}
 
-footer{
+footer {
     background-color: #004080;
     color: white;
     padding: 10px;
