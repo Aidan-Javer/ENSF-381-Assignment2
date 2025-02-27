@@ -1,3 +1,11 @@
+body {
+    font-family: Arial;
+}
+
+h2 {
+    color: #004080;
+}
+
 header {
     display: flex;
     background-color: #004080;
@@ -12,30 +20,35 @@ div {
     background-color: #003366;
     padding: 10px;
 }
-
-div p {
+nav {
     display: flex;
     justify-content: space-evenly;
 }
-
-div a {
+nav a {
     color: white;
     text-decoration: none;
 }
-
-div a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
-#about {
+main {
     background-color: #d4d4d4;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 20px;    
 }
-#about p ol {
+#about {
+    margin: 20px;
     text-align: center;
-    list-style-type: none;
+}
+#about ul {
+    display: flexbox;
+    justify-content: center;
+    list-style-type: "-";
+    list-style-position: inside;
+    padding: 0;
+}
+#about ul li {
+    margin: 10px;
 }
 
 footer {
