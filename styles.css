@@ -78,6 +78,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: #cacaca;
     padding: 30px;
     margin: 0 150px;
