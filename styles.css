@@ -78,7 +78,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     background-color: #cacaca;
     padding: 30px;
     margin: 0 150px;
@@ -113,6 +112,7 @@ form button:hover {
 form a {
     color: #004080;
     text-decoration: none;
+    text-align: center;
 }
 form a:hover {
     text-decoration: underline;
