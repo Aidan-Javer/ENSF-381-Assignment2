@@ -16,7 +16,7 @@
                 <a href="course_view.html">Courses</a>
             </nav>
         </div>
-        <main>
+        <main id="quiz">
             <img id="quizBanner" width=100% height=100% src="banner.jpg">
             <h2 class="quizDetails" id="courseName">Course Name: Web Development</h2>
             <h2 class="quizDetails">Course Code: ENSF381</h2>
@@ -24,35 +24,36 @@
             <p class="quizDetails">Deadline: 11:59PM, February 7th, 2025</p>
             <p class="quizDetails" id="attempts">Attempts Allowed: 1</p>
 
-            <h3>Question 1</h3>
-            <p>What does HTML stand for?</p>
+            <h3 class="q1">Question 1</h3>
+            <p class="q1">What does HTML stand for?</p>
             <form class="quizQuestion" id="question1">
-                <input type="radio" id="q1-answer1" name="q1" value="answer1">
-                <label for="q1-answer1">Hyper Train Marking Language</label> 
+                <input type="radio" class="q1-1" id="q1-answer1" name="q1" value="answer1">
+                <label class="q1-1" for="q1-answer1">Hyper Train Marking Language</label> 
                 <br>
-                <input type="radio" id="q1-answer2" name="q1" value="answer2">
-                <label for="q1-answer2">Hyper Text Markup Language</label>
+                <input type="radio" class="q1-2" id="q1-answer2" name="q1" value="answer2">
+                <label class="q1-2" for="q1-answer2">Hyper Text Markup Language</label>
                 <br>
-                <input type="radio" id="q1-answer3" name="q1" value="answer3">
-                <label for="q1-answer3">Home Tool Markup Language</label>
+                <input type="radio" class="q1-3" id="q1-answer3" name="q1" value="answer3">
+                <label class="q1-3" for="q1-answer3">Home Tool Markup Language</label>
                 <br>
-                <button type="button">Submit Answer</button>
+                <button type="button" class="submitQuizQuestion" id="submitQ1">Submit Answer</button>
             </form>
 
-            <h3>Question 2</h3>
-            <p>Which of the following are HTML elements? (select all that apply)</p>
+            <h3 class="q2">Question 2</h3>
+            <p class="q2">Which of the following are HTML elements? (select all that apply)</p>
             <form class="quizQuestion" id="question2">
-                <input type="checkbox" id="q2-answer1" name="q2" value="answer1">
-                <label for="q2-answer1">text</label> 
+                <input type="checkbox" class="q2-1" id="q2-answer1" name="q2" value="answer1">
+                <label class="q2-1" for="q2-answer1">text</label> 
                 <br>
-                <input type="checkbox" id="q2-answer2" name="q2" value="answer2">
-                <label for="q2-answer2">a</label>
+                <input type="checkbox" class="q2-2" id="q2-answer2" name="q2" value="answer2">
+                <label class="q2-2" for="q2-answer2">a</label>
                 <br>
-                <input type="checkbox" id="q2-answer3" name="q2" value="answer3">
-                <label for="q2-answer3">hyperlink</label>
+                <input type="checkbox" class="q2-3" id="q2-answer3" name="q2" value="answer3">
+                <label class="q2-3" for="q2-answer3">hyperlink</label>
                 <br>
-                <button type="button">Submit Answer</button>
-    
+                <button type="button" class="submitQuizQuestion" id="submitQ2">Submit Answer</button>
+            </form>
+            <form id="finishQuiz">
                 <a href="leaderboard.html"><button type="button">Finish Quiz</button></a>
             </form>
         </main>
