@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Attempt Quiz Page</title>
     </head>
     <body>
@@ -8,54 +9,51 @@
             <img width=100px height=100px src="logo.jpg">
             <h1>LMS - Learning Management System</h1>
         </header>
-        <h2>LMS - Attempt Quiz</h2>
+        <h2 id="attemptQuizHeader">LMS - Attempt Quiz</h2>
         <div>
-                <a href="index.html">Homepage</a> | 
+            <nav>
+                <a href="index.html">Homepage</a>  
                 <a href="course_view.html">Courses</a>
-            <br>
-            <br>
+            </nav>
         </div>
         <main>
-            <p>
-                <img width=100% height=100% src="banner.jpg">
-                <h2>Course Name: Web Development</h2>
-                <h2>Course Code: ENSF381</h2>
-            </p>
-                Topic: HTML Basics
-            <p> Deadline: 11:59PM, February 7th, 2025 </p>
-            <p> Attempts Allowed: 1 </p>
-            <p><h3>Question 1</h3></p>
+            <img id="quizBanner" width=100% height=100% src="banner.jpg">
+            <h2 class="quizDetails" id="courseName">Course Name: Web Development</h2>
+            <h2 class="quizDetails">Course Code: ENSF381</h2>
+            <p class="quizDetails">Topic: HTML Basics</p>
+            <p class="quizDetails">Deadline: 11:59PM, February 7th, 2025</p>
+            <p class="quizDetails" id="attempts">Attempts Allowed: 1</p>
+
+            <h3>Question 1</h3>
             <p>What does HTML stand for?</p>
-            <form>
-                <p>
-                    <input type="radio" id="q1-answer1" name="q1" value="answer1">
-                    <label for="q1-answer1">Hyper Train Marking Language</label> 
-                    <br>
-                    <input type="radio" id="q1-answer2" name="q1" value="answer2">
-                    <label for="q1-answer2">Hyper Text Markup Language</label>
-                    <br>
-                    <input type="radio" id="q1-answer3" name="q1" value="answer3">
-                    <label for="q1-answer3">Home Tool Markup Language</label>
-                    <br>
-                    <button type="button">Submit Answer</button>
-                </p>
+            <form class="quizQuestion" id="question1">
+                <input type="radio" id="q1-answer1" name="q1" value="answer1">
+                <label for="q1-answer1">Hyper Train Marking Language</label> 
+                <br>
+                <input type="radio" id="q1-answer2" name="q1" value="answer2">
+                <label for="q1-answer2">Hyper Text Markup Language</label>
+                <br>
+                <input type="radio" id="q1-answer3" name="q1" value="answer3">
+                <label for="q1-answer3">Home Tool Markup Language</label>
+                <br>
+                <button type="button">Submit Answer</button>
             </form>
-            <p><h3>Question 2</h3></p>
+
+            <h3>Question 2</h3>
             <p>Which of the following are HTML elements? (select all that apply)</p>
-            <form>
-                <p>
-                    <input type="checkbox" id="q2-answer1" name="q2" value="answer1">
-                    <label for="q2-answer1">text</label> 
-                    <br>
-                    <input type="checkbox" id="q2-answer2" name="q2" value="answer2">
-                    <label for="q2-answer2">a</label>
-                    <br>
-                    <input type="checkbox" id="q2-answer3" name="q2" value="answer3">
-                    <label for="q2-answer3">hyperlink</label>
-                    <br>
-                    <button type="button">Submit Answer</button>
-                </p>        
-                    <a href="leaderboard.html"><button type="button">Finish Quiz</button></a>
+            <form class="quizQuestion" id="question2">
+                <input type="checkbox" id="q2-answer1" name="q2" value="answer1">
+                <label for="q2-answer1">text</label> 
+                <br>
+                <input type="checkbox" id="q2-answer2" name="q2" value="answer2">
+                <label for="q2-answer2">a</label>
+                <br>
+                <input type="checkbox" id="q2-answer3" name="q2" value="answer3">
+                <label for="q2-answer3">hyperlink</label>
+                <br>
+                <button type="button">Submit Answer</button>
+    
+                <a href="leaderboard.html"><button type="button">Finish Quiz</button></a>
             </form>
         </main>
         <footer><p>&copy 2025 LMS. All rights reserved.</p></footer>
