@@ -47,7 +47,8 @@ header + h2 {
 main {
     order: 4;
     background-color: #d4d4d4;
-    padding: 20px;    
+    padding: 20px;
+    margin: 20px;
 }
 
 footer {
@@ -154,4 +155,55 @@ form.quizQuestion {
     width: 300px;
     background-color: #cacaca;
     padding: 0;
+}
+
+.leaderboardTable{
+    width: 100%;
+    border: 1px solid white; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.leaderboardTitleRow {
+    background-color: #4CAF50; 
+}
+
+.leaderboardTitle {
+    color: white;           
+    font-size: 30px;
+    padding: 10px;
+}
+
+.columnHeaders {
+    background-color: white; 
+    color: black;
+    font-weight: bold;
+}
+
+.gold {
+    background-color: #FFD700;
+}
+
+.silver {
+    background-color: #C0C0C0;
+}
+ 
+.bronze {
+    background-color: #CD7F32;
+}
+
+.rowAlternate1 {
+    background-color: #f9f9f9;
+}
+
+.rowAlternate2 {
+    background-color: #e4e2e2;
+}
+
+.profilePic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    border: 2px solid black; 
 }
