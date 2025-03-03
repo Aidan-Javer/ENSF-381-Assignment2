@@ -246,6 +246,7 @@ form.quizQuestion button {
     border: lightblue;
     border-radius: 5px;
 }
+
 form.quizQuestion button:hover {
     background-color: darkblue;
     border: darkblue;
